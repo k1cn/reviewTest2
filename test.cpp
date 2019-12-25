@@ -62,7 +62,8 @@ void fun()
 {
     const auto& [a,b,c] = std::make_tuple(1,2,3);
     
-    static_cast<unsigned int>(134);
+    static_cast<unsigned int>(134); // get me more context
+    auto seeMoreCtx = 1;
     auto someInt = 2;
     auto fl = 0.123d;
     auto dbl = 0.123f;
