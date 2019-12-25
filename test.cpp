@@ -63,7 +63,8 @@ void fun()
     const auto& [a,b,c] = std::make_tuple(1,2,3);
     
     static_cast<unsigned int>(134);
-    auto someInt = 2;
+    auto someInt = 2; // I want to see the context
+    auto moarContext = 1;
     auto fl = 0.123d;
     auto dbl = 0.123f;
     auto hex = 0x1234;
